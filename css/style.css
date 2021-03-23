@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.big-container {
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    font-family: sans-serif;
+}
+.eng-eng-katta {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.boshlovchi {
+    margin-top: -50px;
+    display: flex;
+    list-style: none;
+    margin-left: 30px;
+}
+.boshlovchi li {
+    padding: 10px 20px;
+    color: black;
+    
+    
+}
+.boshlovchi li:hover {
+    text-decoration: underline;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+#boshi-2 {
+    color: black!important;
+    font-size: 16px;
+}
+#boshi-2:hover {
+    color: #F04037!important;
+}
+.tepa-orta {
+    margin-top: 150px;
+    margin-left: 80px;
+}
+.tepa-orta h2 {
+    font-size: 45px;
+    width: 450px;
+    line-height: 70px;
+    letter-spacing: -1.87579px;
+    color: #19191B;
+}
+.tepa-orta p {
+    margin-top: 10px;
+    width: 450px;
+    font-size: 18px;
+    line-height: 39px;
+    letter-spacing: -0.656526px;
+    color: #696871;
+}
+.input {
+    padding: 25px 40px;
+    width: 450px;
+    margin-top: 20px;
+    margin-bottom: 400px;
+}
+.img-1 {
+    transform: translate(40px, 5px);
+}
+.buton-1 {
+    padding: 20px 50px;
+    transform: translate(-185px, 0px);
+    background: #F04037;
+    border: 1px solid #C31A12;
+    border-radius: 5px;
+}
+.tepa-orta-2 {
+    margin-left: -25px;
+}
+.rasm-uchun {
+    background-image: url(../img/Oval.png), url(../img/2.png), url(../img/bg-img-4.png);
+    background-repeat: no-repeat;
+    background-size: 200px. 150px, contain;
+    background-position: top 100px left 600px, top 500px left 1100px, top center;
+}
+/* section tugatildi */
+/* yangi section ochildi */
+.orta-2-1 {
+    display: flex;
+}
+.orta-2-3 {
+    display: flex;
+    margin-left: 80px;
+    margin: 20px;
+    border: 1px solid black;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.orta-2-3 img {
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 69px;
+}
+.orta-2-3 h4 {
+    padding: 20px 20px 10px 20px;
+}
+.orta-2-3 p {
+    padding: 0px 20px 20px 20px;
+    line-height: 28px;
+    letter-spacing: -0.500211px;
+    color: #696871;
+}
