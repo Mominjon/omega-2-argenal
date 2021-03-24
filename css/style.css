@@ -157,10 +157,7 @@ a {
     color: #F04037;
 }
 .rasm-uchun-2 {
-    background-image: url(../img/BG-img-1.png);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: contain cover;
+   background-color: #413E65;;
 }
 /* secton tugatildi 
 yangi section ochildi */
@@ -200,9 +197,7 @@ yangi section ochildi */
 .keremas {
     padding: 200px;
 }
-.keresiz {
-    padding: 40px;
-}
+
 .rasm-uchun-3 {
     background-image: url(../img/Oval.png), url(../img/BG-img-3.jpg);
     background-repeat: no-repeat;
@@ -543,21 +538,49 @@ responsiv boshlandi */
     }
     .orta-2-1 {
         margin-top: -275px;
-        padding-top: 150px;
-        display: flex;
-        margin-left: 70px;
+        padding-top: 100px;
+        margin-left: 250px;
+    }
+    .keraksiz-5 {
+        padding: 50px;
+    }
+    .orta-2-5 {
+        margin-top: 500px;
+        margin-left: -550px;
+
     }
     .orta-2-5 h2{
+        width: 500px;
         margin-top: 20px;
         font-size: 50px;
         margin-left: 100px;
         color: #fff;
     }
+    .orta-2-5 p {
+        width: 500px;
+    }
+    .eng-oson {
+        padding-top: 150px;
+        margin-left: 200px;
+    }
     .rasm-uchun-3 {
-        background-image: url(../img/Oval.png), url(../img/BG-img-3.jpg);
+        background-image: none;
+        /* background-image: url(../img/Oval.png), url(../img/BG-img-3.jpg);
         background-repeat: no-repeat;
         background-size: 150px, 500px;
-        background-position: 500px 380px, top right -50px;
+        background-position: 500px 380px, top right -50px; */
+    }
+    .custom-1 {
+        padding: 0px;
+    }
+    .sal-qiyin {
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column-reverse;
+    }
+    .sal-qiyin li {
+        width: 400px;
+        margin-left: 250px;
     }
     .sal-qiyin-2 h2 {
         text-align: center;
@@ -566,14 +589,18 @@ responsiv boshlandi */
         padding-top: 80px;
     }
     .rasm-ucun-6 {
-        background-image: url(../img/Group.png), url(../img/Img.png);
+        background-image: none;
+        /* background-image: url(../img/Group.png), url(../img/Img.png);
         background-repeat: no-repeat;
         background-size: 200px, 420px;
-        background-position: top 320px left 600px, top 50px left 650px;
+        background-position: top 320px left 600px, top 50px left 650px; */
+    }
+    .eng-oson-2 {
+        margin-left: 200px;
     }
     .koment-heding p {
         width: 500px;
-        margin-left: 270px;
+        margin-left: 200px;
         margin-top: 10px;
         font-size: 18px;
         line-height: 32px;
@@ -583,19 +610,1012 @@ responsiv boshlandi */
     }
     .komment {
         display: flex;
-        margin-left: 50px;
     
     }
     .rasm-ucun-8 {
-        background-image: url(../img/oval-2.png), url(../img/img-1.png), url(../img/BG-img-2.png);
+        background-image: none;
+        background: #413E65;
+        /* background-image: url(../img/oval-2.png), url(../img/img-1.png), url(../img/BG-img-2.png);
         background-repeat: no-repeat;
         background-size: 250px, 350px, 1800px;
-        background-position: top 220px left 230px, top 110px left 50px, top center;
+        background-position: top 220px left 230px, top 110px left 50px, top center; */
     }
     .eng-oson-3 {
         padding-top: 200px;
-        margin-left: 450px;
+        margin-left: 250px;
         margin-bottom: 200px;
+    }
+    .eng-paski-3 {
+        margin-top: -180px;
+        margin-left: 350px;
+    }
+    .eng-paski {
+        display: block;
+    }
+    .eng-paski-3 h4 {
+        font-size: 35px;
+    }
+    .eng-paski-2 {
+        margin-top: 120px;
+        margin-left: 30px;
+    }
+}
+@media (max-width: 840px) {
+    .container {
+        width: 800px;
+    }
+    .boshlovchi {
+        margin-left: 100px;
+    }
+    .tepa-orta {
+        margin-top: 100px;
+        margin-left: 150px;
+        margin-bottom: 100px;
+    }
+    .rasm-uchun {
+        background-image: none;
+        background-color: #C8D5DA;
+        /* background-size: 200px, 150px, 1100px;
+        background-position: top 100px left 450px, top 350px left 750px, top center ; */
+    }
+    .orta-2-1 {
+        margin-top: -275px;
+        padding-top: 100px;
+        margin-left: 200px;
+    }
+    .keraksiz-5 {
+        padding: 50px;
+    }
+    .orta-2-5 {
+        margin-top: 500px;
+        margin-left: -550px;
+
+    }
+    .orta-2-5 h2{
+        width: 500px;
+        margin-top: 20px;
+        font-size: 50px;
+        margin-left: 100px;
+        color: #fff;
+    }
+    .orta-2-5 p {
+        width: 500px;
+    }
+    .eng-oson {
+        padding-top: 150px;
+        margin-left: 200px;
+    }
+    .rasm-uchun-3 {
+        background-image: none;
+        /* background-image: url(../img/Oval.png), url(../img/BG-img-3.jpg);
+        background-repeat: no-repeat;
+        background-size: 150px, 500px;
+        background-position: 500px 380px, top right -50px; */
+    }
+    .custom-1 {
+        padding: 0px;
+    }
+    .sal-qiyin {
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column-reverse;
+    }
+    .sal-qiyin li {
+        width: 400px;
+        margin-left: 200px;
+    }
+    .sal-qiyin-2 h2 {
+        text-align: center;
+        font-size: 50px;
+        margin-top: -300px;
+        padding-top: 80px;
+    }
+    .rasm-ucun-6 {
+        background-image: none;
+        /* background-image: url(../img/Group.png), url(../img/Img.png);
+        background-repeat: no-repeat;
+        background-size: 200px, 420px;
+        background-position: top 320px left 600px, top 50px left 650px; */
+    }
+    .eng-oson-2 {
+        margin-left: 150px;
+    }
+    .koment-heding p {
+        width: 500px;
+        margin-left: 150px;
+        margin-top: 10px;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: -0.656526px;
+        color: #696871;
+    }
+    .komment {
+        display: flex;
+        margin-left: -40px;
+    
+    }
+    .rasm-ucun-8 {
+        background-image: none;
+        background: #413E65;
+        /* background-image: url(../img/oval-2.png), url(../img/img-1.png), url(../img/BG-img-2.png);
+        background-repeat: no-repeat;
+        background-size: 250px, 350px, 1800px;
+        background-position: top 220px left 230px, top 110px left 50px, top center; */
+    }
+    .eng-oson-3 {
+        padding-top: 200px;
+        margin-left: 200px;
+        margin-bottom: 200px;
+    }
+    .eng-paski-3 {
+        margin-top: -180px;
+        margin-left: 285px;
+    }
+    .eng-paski {
+        display: block;
+    }
+    .eng-paski-3 h4 {
+        font-size: 35px;
+    }
+    .eng-paski-2 {
+        margin-top: 120px;
+        margin-left: 30px;
+    }
+}
+@media (max-width: 740px) {
+    .container {
+        width: 700px;
+    }
+    .input {
+        padding: 25px 40px;
+        width: 450px;
+        margin-left: -50px;
+        margin-top: 20px;
+        margin-bottom: 315px;
+    }
+    .boshlovchi {
+        margin-left: 100px;
+    }
+    .img-1 {
+        transform: translate(-10px, 5px);
+    }
+    .tepa-orta {
+        margin-top: 100px;
+        margin-left: 150px;
+        margin-bottom: 100px;
+    }
+    .buton-1 {
+        padding: 20px 35px;
+        transform: translate(-155px, 0px);
+        background: #F04037;
+        border: 1px solid #C31A12;
+        border-radius: 5px;
+    }
+    .rasm-uchun {
+        background-image: none;
+        background-color: #C8D5DA;
+        /* background-size: 200px, 150px, 1100px;
+        background-position: top 100px left 450px, top 350px left 750px, top center ; */
+    }
+    .orta-2-1 {
+        margin-top: -275px;
+        padding-top: 100px;
+        margin-left: 140px;
+    }
+    .keraksiz-5 {
+        padding: 50px;
+    }
+    .orta-2-5 {
+        margin-top: 500px;
+        margin-left: -550px;
+
+    }
+    .orta-2-5 h2{
+        width: 500px;
+        margin-top: 20px;
+        font-size: 50px;
+        margin-left: 100px;
+        color: #fff;
+    }
+    .orta-2-5 p {
+        width: 500px;
+    }
+    .eng-oson {
+        padding-top: 150px;
+        margin-left: 120px;
+    }
+    .rasm-uchun-3 {
+        background-image: none;
+        /* background-image: url(../img/Oval.png), url(../img/BG-img-3.jpg);
+        background-repeat: no-repeat;
+        background-size: 150px, 500px;
+        background-position: 500px 380px, top right -50px; */
+    }
+    .custom-1 {
+        padding: 0px;
+    }
+    .sal-qiyin {
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column-reverse;
+    }
+    .sal-qiyin li {
+        width: 400px;
+        margin-left: 150px;
+    }
+    .sal-qiyin-2 h2 {
+        text-align: center;
+        font-size: 50px;
+        margin-top: -300px;
+        padding-top: 80px;
+    }
+    .rasm-ucun-6 {
+        background-image: none;
+        /* background-image: url(../img/Group.png), url(../img/Img.png);
+        background-repeat: no-repeat;
+        background-size: 200px, 420px;
+        background-position: top 320px left 600px, top 50px left 650px; */
+    }
+    .eng-oson-2 {
+        margin-left: 120px;
+    }
+    .koment-heding p {
+        width: 500px;
+        margin-left: 120px;
+        margin-top: 10px;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: -0.656526px;
+        color: #696871;
+    }
+    .komment {
+        display: flex;
+        margin-left: -80px;
+    
+    }
+    .rasm-ucun-8 {
+        background-image: none;
+        background: #413E65;
+        /* background-image: url(../img/oval-2.png), url(../img/img-1.png), url(../img/BG-img-2.png);
+        background-repeat: no-repeat;
+        background-size: 250px, 350px, 1800px;
+        background-position: top 220px left 230px, top 110px left 50px, top center; */
+    }
+    .eng-oson-3 {
+        padding-top: 200px;
+        margin-left: 150px;
+        margin-bottom: 200px;
+    }
+    .eng-paski-3 {
+        margin-top: -180px;
+        margin-left: 250px;
+    }
+    .eng-paski {
+        display: block;
+    }
+    .eng-paski-3 h4 {
+        font-size: 35px;
+    }
+    .eng-paski-2 {
+        margin-top: 120px;
+        margin-left: 30px;
+    }
+}
+@media (max-width: 640px) {
+    .container {
+        width: 600px;
+    }
+    .input {
+        padding: 25px 40px;
+        width: 450px;
+        margin-top: 20px;
+        margin-bottom: 315px;
+    }
+    .boshlovchi {
+        margin-left: 100px;
+    }
+    .img-1 {
+        transform: translate(-10px, 5px);
+    }
+    .tepa-orta {
+        margin-top: 100px;
+        margin-left: 100px;
+        margin-bottom: 100px;
+    }
+    .buton-1 {
+        margin-left: 10px;
+        position: absolute;
+        padding: 20px 35px;
+        margin-top: 25px;
+        background: #F04037;
+        border: 1px solid #C31A12;
+        border-radius: 5px;
+    }
+    .rasm-uchun {
+        background-image: none;
+        background-color: #C8D5DA;
+        /* background-size: 200px, 150px, 1100px;
+        background-position: top 100px left 450px, top 350px left 750px, top center ; */
+    }
+    .orta-2-1 {
+        margin-top: -275px;
+        padding-top: 100px;
+        margin-left: 80px;
+    }
+    .keraksiz-5 {
+        padding: 50px;
+    }
+    .orta-2-5 {
+        margin-top: 500px;
+        margin-left: -550px;
+
+    }
+    .orta-2-5 h2{
+        width: 500px;
+        margin-top: 20px;
+        font-size: 50px;
+        margin-left: 100px;
+        color: #fff;
+    }
+    .orta-2-5 p {
+        width: 500px;
+    }
+    .eng-oson {
+        padding-top: 150px;
+        margin-left: 80px;
+    }
+    .rasm-uchun-3 {
+        background-image: none;
+        /* background-image: url(../img/Oval.png), url(../img/BG-img-3.jpg);
+        background-repeat: no-repeat;
+        background-size: 150px, 500px;
+        background-position: 500px 380px, top right -50px; */
+    }
+    .custom-1 {
+        padding: 0px;
+    }
+    .sal-qiyin {
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column-reverse;
+    }
+    .sal-qiyin li {
+        width: 400px;
+        margin-left: 100px;
+    }
+    .sal-qiyin-2 h2 {
+        text-align: center;
+        font-size: 50px;
+        margin-top: -300px;
+        padding-top: 80px;
+    }
+    .rasm-ucun-6 {
+        background-image: none;
+        /* background-image: url(../img/Group.png), url(../img/Img.png);
+        background-repeat: no-repeat;
+        background-size: 200px, 420px;
+        background-position: top 320px left 600px, top 50px left 650px; */
+    }
+    .eng-oson-2 {
+        margin-left: 80px;
+    }
+    .koment-heding p {
+        width: 500px;
+        margin-left: 80px;
+        margin-top: 10px;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: -0.656526px;
+        color: #696871;
+    }
+    .komment {
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column-reverse;
+        margin-left: 10px;
+        
+    }
+    .rasm-ucun-8 {
+        background-image: none;
+        background: #413E65;
+        /* background-image: url(../img/oval-2.png), url(../img/img-1.png), url(../img/BG-img-2.png);
+        background-repeat: no-repeat;
+        background-size: 250px, 350px, 1800px;
+        background-position: top 220px left 230px, top 110px left 50px, top center; */
+    }
+    .eng-oson-3 {
+        padding-top: 200px;
+        margin-left: 100px;
+        margin-bottom: 200px;
+    }
+    .eng-paski-3 {
+        margin-top: -180px;
+        margin-left: 200px;
+    }
+    .eng-paski {
+        display: block;
+    }
+    .eng-paski-3 h4 {
+        font-size: 35px;
+    }
+    .eng-paski-2 {
+        margin-top: 120px;
+        margin-left: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column-reverse;
+    }
+    .eng-paski-4 {
+        margin-top: 5px;
+        margin-bottom: 100px;
+        margin-left: 150px;
+    }
+}
+@media (max-width: 540px) {
+    .container {
+        width: 500px;
+    }
+    .input {
+        padding: 25px 40px;
+        width: 450px;
+        margin-top: 20px;
+        margin-bottom: 315px;
+    }
+    .boshlovchi {
+        margin-left: 100px;
+    }
+    .img-1 {
+        transform: translate(-10px, 5px);
+    }
+    .tepa-orta {
+        margin-top: 100px;
+        margin-left: 50px;
+        margin-bottom: 100px;
+    }
+    .buton-1 {
+        margin-left: 10px;
+        position: absolute;
+        padding: 20px 35px;
+        margin-top: 25px;
+        background: #F04037;
+        border: 1px solid #C31A12;
+        border-radius: 5px;
+    }
+    .rasm-uchun {
+        background-image: none;
+        background-color: #C8D5DA;
+        /* background-size: 200px, 150px, 1100px;
+        background-position: top 100px left 450px, top 350px left 750px, top center ; */
+    }
+    .orta-2-1 {
+        margin-top: -275px;
+        padding-top: 100px;
+        margin-left: 20px;
+    }
+    .keraksiz-5 {
+        padding: 50px;
+    }
+    .orta-2-5 {
+        margin-top: 500px;
+        margin-left: -550px;
+
+    }
+    .orta-2-5 h2{
+        width: 500px;
+        margin-top: 20px;
+        font-size: 50px;
+        margin-left: 100px;
+        color: #fff;
+    }
+    .orta-2-5 p {
+        width: 500px;
+    }
+    .eng-oson {
+        padding-top: 150px;
+        margin-left: 20px;
+    }
+    .rasm-uchun-3 {
+        background-image: none;
+        /* background-image: url(../img/Oval.png), url(../img/BG-img-3.jpg);
+        background-repeat: no-repeat;
+        background-size: 150px, 500px;
+        background-position: 500px 380px, top right -50px; */
+    }
+    .custom-1 {
+        padding: 0px;
+    }
+    .sal-qiyin {
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column-reverse;
+    }
+    .sal-qiyin li {
+        width: 400px;
+        margin-left: 40px;
+    }
+    .sal-qiyin-2 h2 {
+        text-align: center;
+        font-size: 50px;
+        margin-top: -300px;
+        padding-top: 80px;
+    }
+    .rasm-ucun-6 {
+        background-image: none;
+        /* background-image: url(../img/Group.png), url(../img/Img.png);
+        background-repeat: no-repeat;
+        background-size: 200px, 420px;
+        background-position: top 320px left 600px, top 50px left 650px; */
+    }
+    .eng-oson-2 {
+        margin-left: 0px;
+    }
+    .koment-heding p {
+        width: 500px;
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: -0.656526px;
+        color: #696871;
+    }
+    .komment {
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column-reverse;
+        margin-left: -40px;
+        
+    }
+    .rasm-ucun-8 {
+        background-image: none;
+        background: #413E65;
+        /* background-image: url(../img/oval-2.png), url(../img/img-1.png), url(../img/BG-img-2.png);
+        background-repeat: no-repeat;
+        background-size: 250px, 350px, 1800px;
+        background-position: top 220px left 230px, top 110px left 50px, top center; */
+    }
+    .eng-oson-3 {
+        padding-top: 200px;
+        margin-left: 40px;
+        margin-bottom: 200px;
+    }
+    .eng-paski-3 {
+        margin-top: -180px;
+        margin-left: 140px;
+    }
+    .eng-paski {
+        display: block;
+    }
+    .eng-paski-3 h4 {
+        font-size: 35px;
+    }
+    .eng-paski-2 {
+        margin-top: 120px;
+        margin-left: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column-reverse;
+    }
+    .eng-paski-4 {
+        margin-top: 5px;
+        margin-bottom: 100px;
+        margin-left: 100px;
+    }
+}
+@media (max-width: 440px) {
+    .container {
+        width: 400px;
+    }
+    .input {
+        padding: 15px 40px;
+        width: 350px;
+        margin-top: 20px;
+        margin-bottom: 315px;
+    }
+    .tepa-orta h2 {
+        font-size: 35px;
+        width: 350px;
+    }
+    .tepa-orta p {
+        font-size: 20px;
+        width: 320px;
+    }
+    .boshlovchi {
+        margin-left: 100px;
+    }
+    .img-1 {
+        transform: translate(-10px, 5px);
+    }
+    .tepa-orta {
+        margin-top: 100px;
+        margin-left: 50px;
+        margin-bottom: 100px;
+    }
+    .buton-1 {
+        margin-left: 15px;
+        position: absolute;
+        padding: 10px 25px;
+        margin-top: 26px;
+        background: #F04037;
+        border: 1px solid #C31A12;
+        border-radius: 5px;
+    }
+    .rasm-uchun {
+        background-image: none;
+        background-color: #C8D5DA;
+        /* background-size: 200px, 150px, 1100px;
+        background-position: top 100px left 450px, top 350px left 750px, top center ; */
+    }
+    .orta-2-1 {
+        margin-top: -275px;
+        padding-top: 100px;
+        margin-left: 20px;
+    }
+    .orta-2-3 {
+        width: 320px;
+    }
+    .keraksiz-5 {
+        padding: 50px;
+    }
+    .orta-2-5 {
+        margin-top: 500px;
+        margin-left: -550px;
+
+    }
+    .orta-2-5 h2{
+        width: 320px;
+        margin-top: 50px;
+        font-size: 35px;
+        margin-left: 200px;
+        color: #fff;
+    }
+    .orta-2-5 p {
+        width: 320px;
+        margin-left: 200px;
+    }
+    .orta-2-5 a {
+        margin-left: 200px;
+    }
+    .eng-oson {
+        padding-top: 150px;
+        margin-left: 20px;
+    }
+    .eng-oson h2 {
+        font-size: 35px;
+    }
+    .eng-oson p {
+        width: 320px;
+        margin-left: ;
+    }
+    .rasm-uchun-3 {
+        background-image: none;
+        /* background-image: url(../img/Oval.png), url(../img/BG-img-3.jpg);
+        background-repeat: no-repeat;
+        background-size: 150px, 500px;
+        background-position: 500px 380px, top right -50px; */
+    }
+    .custom-1 {
+        padding: 0px;
+    }
+    .sal-qiyin {
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column-reverse;
+    }
+    .sal-qiyin li {
+        width: 320px;
+       
+    }
+    .sal-qiyin-2 h2 {
+        text-align: center;
+        font-size: 35px;
+        margin-top: -300px;
+        padding-top: 80px;
+    }
+    .rasm-ucun-6 {
+        background-image: none;
+        /* background-image: url(../img/Group.png), url(../img/Img.png);
+        background-repeat: no-repeat;
+        background-size: 200px, 420px;
+        background-position: top 320px left 600px, top 50px left 650px; */
+    }
+    .eng-oson-2 {
+        margin-left: 0px;
+    }
+    .eng-oson-2 h2 {
+        font-size: 35px;
+    }
+    .eng-oson-2 p {
+        width: 320px;
+    }
+    .koment-heding p {
+        width: 320px;
+        margin-left: 40px;
+        margin-top: 10px;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: -0.656526px;
+        color: #696871;
+    }
+    .komment-2 {
+        width: 320px;
+    }
+    .komment {
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column-reverse;
+        margin-left: -40px;
+        
+    }
+    .rasm-ucun-8 {
+        background-image: none;
+        background: #413E65;
+        /* background-image: url(../img/oval-2.png), url(../img/img-1.png), url(../img/BG-img-2.png);
+        background-repeat: no-repeat;
+        background-size: 250px, 350px, 1800px;
+        background-position: top 220px left 230px, top 110px left 50px, top center; */
+    }
+    .eng-oson-3 {
+        padding-top: 200px;
+        margin-left: 0px;
+        margin-bottom: 200px;
+    }
+    .eng-oson-3 h2 {
+        font-size: 45px;
+    }
+    .eng-oson-3 p {
+        width: 320px;
+    }
+    .eng-oson-3 input {
+        padding: 20px 100px;
+        border: 1px solid #EAE9F2;
+        border-radius: 10px;
+        margin-left: -20px;
+        text-align: center;
+    }
+    .eng-oson-3 button {
+        font-size: 22px;
+        background: #F04037;
+        border: 1px solid #C31A12;
+        border-radius: 10px;
+        padding: 20px 125px;
+        margin-top: 20px;
+        margin-left: 5px;
+        color: #fff;
+        transition: color, background-color 0.5s ease;
+        margin-bottom: 200px;
+    }
+    .eng-paski-3 {
+        margin-top: -180px;
+        margin-left: 90px;
+    }
+    .eng-paski {
+        display: block;
+    }
+    .eng-paski-3 h4 {
+        font-size: 35px;
+    }
+    .eng-paski-2 {
+        margin-top: 120px;
+        margin-left: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column-reverse;
+    }
+    .eng-paski-4 {
+        margin-top: 5px;
+        margin-bottom: 100px;
+        margin-left: 40px;
+    }
+}
+@media (max-width: 340px) {
+    .container {
+        width: 300px;
+    }
+    .input {
+        padding: 15px 20px;
+        width: 250px;
+        margin-top: 20px;
+        margin-left: -20px;
+        margin-bottom: 315px;
+    }
+    .tepa-orta h2 {
+        font-size: 35px;
+        width: 250px;
+    }
+    .tepa-orta p {
+        font-size: 20px;
+        width: 250px;
+    }
+    .boshlovchi {
+        margin-left: 80px;
+    }
+    .img-1 {
+        transform: translate(-10px, 5px);
+    }
+    .tepa-orta {
+        margin-top: 100px;
+        margin-left: 20px;
+        margin-bottom: 100px;
+    }
+    .buton-1 {
+        margin-left: 15px;
+        position: absolute;
+        padding: 10px 25px;
+        margin-top: 26px;
+        background: #F04037;
+        border: 1px solid #C31A12;
+        border-radius: 5px;
+    }
+    .rasm-uchun {
+        background-image: none;
+        background-color: #C8D5DA;
+        /* background-size: 200px, 150px, 1100px;
+        background-position: top 100px left 450px, top 350px left 750px, top center ; */
+    }
+    .orta-2-1 {
+        margin-top: -275px;
+        padding-top: 100px;
+        margin-left: 5px;
+    }
+    .orta-2-3 {
+        width: 250px;
+    }
+    .keraksiz-5 {
+        padding: 50px;
+    }
+    .orta-2-5 {
+        margin-top: 700px;
+        margin-left: -450px;
+
+    }
+    .orta-2-5 h2 {
+        width: 250px;
+        margin-top: 50px;
+        font-size: 35px;
+        margin-left: 200px;
+        color: #fff;
+    }
+    .orta-2-5 p {
+        width: 250px;
+        margin-left: 200px;
+    }
+    .orta-2-5 a {
+        margin-left: 200px;
+    }
+    .eng-oson {
+        padding-top: 150px;
+        margin-left: 20px;
+    }
+    .eng-oson h2 {
+        font-size: 30px;
+    }
+    .eng-oson p {
+        width: 250px;
+    }
+    .rasm-uchun-3 {
+        background-image: none;
+        /* background-image: url(../img/Oval.png), url(../img/BG-img-3.jpg);
+        background-repeat: no-repeat;
+        background-size: 150px, 500px;
+        background-position: 500px 380px, top right -50px; */
+    }
+    .custom-1 {
+        padding: 0px;
+    }
+    .sal-qiyin {
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column-reverse;
+    }
+    .sal-qiyin li {
+        width: 250px;
+       
+    }
+    .sal-qiyin-2 h2 {
+        text-align: center;
+        font-size: 35px;
+        margin-top: -300px;
+        padding-top: 80px;
+    }
+    .rasm-ucun-6 {
+        background-image: none;
+        /* background-image: url(../img/Group.png), url(../img/Img.png);
+        background-repeat: no-repeat;
+        background-size: 200px, 420px;
+        background-position: top 320px left 600px, top 50px left 650px; */
+    }
+    .eng-oson-2 {
+        margin-left: 0px;
+    }
+    .eng-oson-2 h2 {
+        font-size: 30px;
+    }
+    .eng-oson-2 p {
+        width: 250px;
+    }
+    .koment-heding p {
+        width: 250px;
+        margin-top: 10px;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: -0.656526px;
+        color: #696871;
+    }
+    .komment-2 {
+        width: 250px;
+    }
+    .komment {
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column-reverse;
+        margin-left: -40px;
+        
+    }
+    .rasm-ucun-8 {
+        background-image: none;
+        background: #413E65;
+        /* background-image: url(../img/oval-2.png), url(../img/img-1.png), url(../img/BG-img-2.png);
+        background-repeat: no-repeat;
+        background-size: 250px, 350px, 1800px;
+        background-position: top 220px left 230px, top 110px left 50px, top center; */
+    }
+    .eng-oson-3 {
+        padding-top: 150px;
+        margin-left: 0px;
+        margin-bottom: 200px;
+    }
+    .eng-oson-3 h2 {
+        font-size: 40px;
+    }
+    .eng-oson-3 p {
+        width: 250px;
+    }
+    .eng-oson-3 input {
+        padding: 20px 50px;
+        border: 1px solid #EAE9F2;
+        border-radius: 10px;
+        margin-left: -20px;
+        text-align: center;
+    }
+    .eng-oson-3 button {
+        font-size: 22px;
+        background: #F04037;
+        border: 1px solid #C31A12;
+        border-radius: 10px;
+        padding: 10px 80px;
+        margin-top: 20px;
+        margin-left: 5px;
+        color: #fff;
+        transition: color, background-color 0.5s ease;
+        margin-bottom: 50px;
+    }
+    .eng-paski-3 {
+        margin-top: -180px;
+        margin-left: 50px;
+    }
+    .eng-paski {
+        display: block;
+    }
+    .eng-paski-3 h4 {
+        font-size: 35px;
+    }
+    .eng-paski-2 {
+        margin-top: 120px;
+        margin-left: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column-reverse;
+    }
+    .eng-paski-4 {
+        margin-top: 5px;
+        margin-bottom: 100px;
+        margin-left: 0px;
     }
 }
 
