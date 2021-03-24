@@ -254,7 +254,7 @@ yangi section */
     padding: 20px;
 }
 
-.custom {
+.custom-1 {
     margin: 0 100px 30px 100px;
 }
 .rasm-uchun-6 {
@@ -368,3 +368,86 @@ yangi section boshlandi */
 }
 /* section tugatildi 
 yangi section boshlandi */
+.eng-oson-3 {
+    padding-top: 200px;
+    margin-left: 550px;
+    margin-bottom: 200px;
+}
+.eng-oson-3 h2 {
+    font-size: 50px;
+    padding: 10px;
+    color: #fff;
+}
+.eng-oson-3 p {
+    width: 520px;
+    padding: 10px;
+    font-size: 21px;
+    line-height: 39px;
+    letter-spacing: -0.656526px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.eng-oson-3 input {
+    padding: 20px 120px;
+    border: 1px solid #EAE9F2;
+    border-radius: 10px;
+    margin-left: -20px;
+    text-align: center;
+}
+.eng-oson-3 img {
+    transform: translate(40px, 5px);
+}
+.eng-oson-3 button {
+    font-size: 22px;
+    background: #F04037;
+    border: 1px solid #C31A12;
+    border-radius: 10px;
+    padding: 20px 170px;
+    margin-top: 20px;
+    margin-left: 5px;
+    color: #fff;
+    transition: color, background-color 0.5s ease;
+    margin-bottom: 200px;
+}
+.eng-oson-3 button:hover {
+    color: red;
+    background-color: #fff;
+}
+.rasm-ucun-8 {
+    background-image: url(../img/oval-2.png), url(../img/img-1.png), url(../img/BG-img-2.png);
+    background-repeat: no-repeat;
+    background-size: 250px, 350px, 1800px;
+    background-position: top 220px left 350px, top 110px left 140px, top center;
+}
+.eng-paski {
+    display: flex;
+}
+.eng-paski-2 {
+    display: flex;
+}
+.eng-paski-3 h4 {
+    margin-left: 20px;
+    margin-top: -100px;
+    font-size: 20px;
+}
+.eng-paski-3 p {
+    padding: 20px;
+    width: 240px;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -0.500211px;
+    color: #5454D4;
+}
+.eng-paski-3 img {
+    margin-left: 20px;
+}
+.eng-paski-4 {
+    padding: 0px 70px;
+    margin-top: -95px;
+    font-weight: bold;
+}
+.eng-paski-5 {
+    font-size: 16px;
+    line-height: 38px;
+    letter-spacing: -0.500211px;
+    color: #19191B;
+}
