@@ -91,8 +91,8 @@ a {
 .rasm-uchun {
     background-image: url(../img/Oval.png), url(../img/2.png), url(../img/bg-img-4.png);
     background-repeat: no-repeat;
-    background-size: 200px. 150px, contain;
-    background-position: top 100px left 600px, top 500px left 1100px, top center;
+    background-size: 200px. 150px, cover;
+    background-position: top 14% left 62%, top 70% left 100%, top center;
 }
 /* section tugatildi */
 /* yangi section ochildi */
@@ -165,6 +165,9 @@ yangi section ochildi */
     padding-top: 150px;
     margin-left: 80px;
 }
+.tuzatish {
+    display: flex;
+}
 .eng-oson h2 {
     font-size: 50px;
     width: 500px;
@@ -197,12 +200,15 @@ yangi section ochildi */
 .keremas {
     padding: 200px;
 }
-
-.rasm-uchun-3 {
-    background-image: url(../img/Oval.png), url(../img/BG-img-3.jpg);
-    background-repeat: no-repeat;
-    background-size: 250px, 600px;
-    background-position: 620px 380px, top right;
+.tuzatish-3 {
+    position: absolute;
+    margin-top: 28%;
+    margin-left: -7%;
+}
+.tuzatish-2 {
+    width: 600px;
+    z-index: 1;
+    margin-left: 10%;
 }
 /* section tugatildi
 yangi section */
@@ -218,12 +224,9 @@ yangi section */
 .sal-qiyin-3 {
     width: 200px;
     display: flex;
-    transition: transform 0.5s ease;
 }
 .sal-qiyin-3:hover {
-    transform: scale(1.2);
     cursor: pointer;
-    border: 1px solid rgb(88, 179, 111);
 }
 .sal-qiyin {
     display: flex;
@@ -231,7 +234,16 @@ yangi section */
     margin-top: 50px;
     justify-content: space-evenly;
 }
+.tuzatish-4 {
+    margin-top: -650px;
+    margin-left: 700px;
 
+}
+.tuzatish-5 {
+    margin-top: 23%;
+    position: absolute;
+    margin-left: -8%;
+}
 .sal-qiyin-3 {
     width: 30%;
     margin-right: 10px;
@@ -254,10 +266,7 @@ yangi section */
     margin: 0 100px 30px 100px;
 }
 .rasm-uchun-6 {
-    background-image: url(../img/bg-img-5.png);
-    background-repeat: no-repeat;
-    background-size: 1900px;
-    background-position: top center;
+    background: #F7F7FB;
 }
 /* section tugatildi 
 yangi section boshlabdi */
@@ -292,12 +301,12 @@ yangi section boshlabdi */
     background-color: #fff;
 
 }
-.rasm-ucun-6 {
+/* .rasm-ucun-6 {
     background-image: url(../img/Group.png), url(../img/Img.png);
     background-repeat: no-repeat;
     background-size: 250px, 520px;
     background-position: top 320px left 700px, top left 750px;
-}
+} */
 .keresiz-2 {
     padding: 100px;
 }
@@ -323,17 +332,17 @@ yangi section boshlandi */
 }
 .komment {
     display: flex;
-    margin-left: 80px;
-
 }
 .komment-2 {
-    width: 400px;
-    margin: 60px 0px 0px 80px;
+    padding: 25px;
+    width: 500px;
+    margin: 60px 80px 0px 0px;
     background: #FFFFFF;
     border: 1px solid #EAE9F2;
     border-radius: 10px;
 }
 .komment-2 p {
+    width: 400px;
     font-size: 21px;
     line-height: 35px;
     letter-spacing: -0.656526px;
@@ -355,16 +364,13 @@ yangi section boshlandi */
     cursor: pointer;
 }
 .rasm-ucun-7 {
-    background-image: url(../img/bg-img-5.png);
-    background-repeat: no-repeat;
-    background-size: 1800px;
-    background-position: top center;
+    background: #F7F7FB;
 }
 /* section tugatildi 
 yangi section boshlandi */
 .eng-oson-3 {
     padding-top: 200px;
-    margin-left: 550px;
+    margin-left: 200px;
     margin-bottom: 200px;
 }
 .eng-oson-3 h2 {
@@ -400,17 +406,26 @@ yangi section boshlandi */
     margin-left: 5px;
     color: #fff;
     transition: color, background-color 0.5s ease;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 .eng-oson-3 button:hover {
     color: red;
     background-color: #fff;
 }
+.tuzatish-8 {
+    margin-top: 35%;
+    width: 400px;
+}
+.tuzatish-11 {
+    display: flex;
+}
+.tuzatish-7 {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: -12%;
+}
 .rasm-ucun-8 {
-    background-image: url(../img/oval-2.png), url(../img/img-1.png), url(../img/BG-img-2.png);
-    background-repeat: no-repeat;
-    background-size: 250px, 350px, 1800px;
-    background-position: top 220px left 350px, top 110px left 140px, top center;
+    background: #413E65;
 }
 .eng-paski {
     display: flex;
@@ -420,7 +435,7 @@ yangi section boshlandi */
 }
 .eng-paski-3 h4 {
     margin-left: 20px;
-    margin-top: -100px;
+    margin-top: 100px;
     font-size: 20px;
 }
 .eng-paski-3 p {
@@ -436,7 +451,7 @@ yangi section boshlandi */
 }
 .eng-paski-4 {
     padding: 0px 50px;
-    margin-top: -95px;
+    margin-top: 100px;
     font-weight: bold;
 }
 .eng-paski-5 {
@@ -457,9 +472,16 @@ yangi section boshlandi */
 }
 /* section tugatildi
 responsiv boshlandi */
-@media (max-width: 1040px) {
+@media (max-width: 1140px) {
     .container {
         width: 1000px;
+    }
+    .tuzatish-3 {
+        display: none;
+    }
+    .tuzatish-2 {
+        margin-left: 0px;
+        width: 500px;
     }
     .boshlovchi {
         margin-left: 100px;
@@ -480,24 +502,13 @@ responsiv boshlandi */
         margin-left: 100px;
         color: #fff;
     }
-    .rasm-uchun-3 {
-        background-image: url(../img/Oval.png), url(../img/BG-img-3.jpg);
-        background-repeat: no-repeat;
-        background-size: 150px, 500px;
-        background-position: 500px 380px, top right -50px;
-    }
     .sal-qiyin-2 h2 {
         text-align: center;
         font-size: 50px;
         margin-top: -300px;
         padding-top: 80px;
     }
-    .rasm-ucun-6 {
-        background-image: url(../img/Group.png), url(../img/Img.png);
-        background-repeat: no-repeat;
-        background-size: 200px, 420px;
-        background-position: top 320px left 600px, top 50px left 650px;
-    }
+   
     .koment-heding p {
         width: 500px;
         margin-left: 270px;
@@ -508,26 +519,50 @@ responsiv boshlandi */
         letter-spacing: -0.656526px;
         color: #696871;
     }
+    .komment-2 {
+        padding: 25px;
+        width: 500px;
+        margin: 60px 80px 0px 0px;
+        background: #FFFFFF;
+        border: 1px solid #EAE9F2;
+        border-radius: 10px;
+    }
     .komment {
         display: flex;
-        margin-left: 50px;
-    
+        margin-left: 0px;
     }
-    .rasm-ucun-8 {
-        background-image: url(../img/oval-2.png), url(../img/img-1.png), url(../img/BG-img-2.png);
-        background-repeat: no-repeat;
-        background-size: 250px, 350px, 1800px;
-        background-position: top 220px left 230px, top 110px left 50px, top center;
+    .tuzatish-7 {
+        display: none;
     }
     .eng-oson-3 {
         padding-top: 200px;
-        margin-left: 450px;
+        margin-left: 100px;
         margin-bottom: 200px;
     }
 }
-@media (max-width: 940px) {
+@media (max-width: 1040px) {
     .container {
         width: 900px;
+    }
+    .tuzatish {
+        display: block;
+    }
+    .tuzatish-3 {
+        margin-top: -70px;
+        margin-left: -60px;
+    }
+    .tuzatish-2 {
+        margin-top: -300px;
+        margin-bottom: 300px;
+        margin-left: 150px;
+    }
+    .tuzatish-4 {
+        margin-top: -100px;
+        margin-left: 150px;
+    
+    }
+    .tuzatish-5 {
+        display: none;
     }
     .boshlovchi {
         margin-left: 100px;
@@ -608,6 +643,21 @@ responsiv boshlandi */
         letter-spacing: -0.656526px;
         color: #696871;
     }
+    .komment-2 p {
+        width: 350px;
+        font-size: 21px;
+        line-height: 35px;
+        letter-spacing: -0.656526px;
+        color: #19191B;
+    }
+    .komment-2 {
+        padding: 20px;
+        width: 400px;
+        margin: 60px 80px 0px 0px;
+        background: #FFFFFF;
+        border: 1px solid #EAE9F2;
+        border-radius: 10px;
+    }
     .komment {
         display: flex;
     
@@ -622,11 +672,11 @@ responsiv boshlandi */
     }
     .eng-oson-3 {
         padding-top: 200px;
-        margin-left: 250px;
+        margin-left: 70px;
         margin-bottom: 200px;
     }
     .eng-paski-3 {
-        margin-top: -180px;
+        margin-top: -50px;
         margin-left: 350px;
     }
     .eng-paski {
@@ -640,9 +690,33 @@ responsiv boshlandi */
         margin-left: 30px;
     }
 }
-@media (max-width: 840px) {
+@media (max-width: 940px) {
     .container {
         width: 800px;
+    }
+    .tuzatish {
+        display: block;
+    }
+    .tuzatish-11 {
+        display: block;
+    }
+    .tuzatish-8 {
+        margin-left: 20%;
+        width: 500px;
+    }
+    .tuzatish-3 {
+        margin-top: -70px;
+        margin-left: -60px;
+    }
+    .tuzatish-2 {
+        margin-top: -300px;
+        margin-bottom: 300px;
+        margin-left: 150px;
+    }
+    .tuzatish-4 {
+        margin-top: -100px;
+        margin-left: 100px;
+    
     }
     .boshlovchi {
         margin-left: 100px;
@@ -763,7 +837,7 @@ responsiv boshlandi */
         margin-left: 30px;
     }
 }
-@media (max-width: 740px) {
+@media (max-width: 840px) {
     .container {
         width: 700px;
     }
@@ -773,6 +847,11 @@ responsiv boshlandi */
         margin-left: -50px;
         margin-top: 20px;
         margin-bottom: 315px;
+    }
+   
+    .tuzatish-8 {
+        margin-left: 10%;
+        width: 500px;
     }
     .boshlovchi {
         margin-left: 100px;
@@ -903,10 +982,11 @@ responsiv boshlandi */
         margin-left: 30px;
     }
 }
-@media (max-width: 640px) {
+@media (max-width: 740px) {
     .container {
         width: 600px;
     }
+    
     .input {
         padding: 25px 40px;
         width: 450px;
@@ -1054,9 +1134,18 @@ responsiv boshlandi */
         margin-left: 150px;
     }
 }
-@media (max-width: 540px) {
+@media (max-width: 640px) {
     .container {
         width: 500px;
+    }
+    .tuzatish-2 {
+        margin-left: 0px;
+    }
+    .tuzatish-8 {
+        margin-left: 0px;
+    }
+    .tuzatish-4 {
+        margin-left: 0px;
     }
     .input {
         padding: 25px 40px;
@@ -1205,8 +1294,20 @@ responsiv boshlandi */
         margin-left: 100px;
     }
 }
-@media (max-width: 440px) {
+@media (max-width: 540px) {
     .container {
+        width: 400px;
+    }
+    .tuzatish-2 {
+        margin-left: 0px;
+        width: 400px;
+    }
+    .tuzatish-8 {
+        margin-left: 0px;
+        width: 400px;
+    }
+    .tuzatish-6 {
+        margin-left: 0px;
         width: 400px;
     }
     .input {
@@ -1412,8 +1513,20 @@ responsiv boshlandi */
         margin-left: 40px;
     }
 }
-@media (max-width: 340px) {
+@media (max-width: 440px) {
     .container {
+        width: 300px;
+    }
+    .tuzatish-2 {
+        margin-left: 0px;
+        width: 300px;
+    }
+    .tuzatish-8 {
+        margin-left: 0px;
+        width: 300px;
+    }
+    .tuzatish-6 {
+        margin-left: 0px;
         width: 300px;
     }
     .input {
