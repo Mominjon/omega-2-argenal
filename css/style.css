@@ -13,8 +13,9 @@
     margin-left: auto;
     margin-right: auto;
 }
+
 body {
-    font-family: CircularStd;
+    font-family: "CircularStd", sans-serif;
 }
 
 .eng-eng-katta {
@@ -473,14 +474,35 @@ yangi section boshlandi */
 /* section tugatildi
 responsiv boshlandi */
 @media (max-width: 1140px) {
+    .big-container {
+        width: 1000px;
+    }
     .container {
         width: 1000px;
     }
     .tuzatish-3 {
         display: none;
     }
+    .tuzatish-6 {
+        margin-left: -100px;
+    }
+    .eng-oson-2 h2 {
+        font-size: 45px;
+        width: 450px;
+    }
+    .eng-oson-2 p {
+        font-size: 20px;
+        width: 450px;
+    }
+    .tuzatish-5 {
+        margin-left: -16%;
+        margin-top: 27%;
+    }
+    .eng-oson p {
+        width: 450px;
+    }
     .tuzatish-2 {
-        margin-left: 0px;
+        margin-left: -5%;
         width: 500px;
     }
     .boshlovchi {
@@ -542,6 +564,13 @@ responsiv boshlandi */
 }
 @media (max-width: 1040px) {
     .container {
+        width: 900px;
+    }
+    
+    .eng-oson-3 p {
+        width: 400px;
+    }
+    .big-container {
         width: 900px;
     }
     .tuzatish {
